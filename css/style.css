@@ -526,6 +526,7 @@ a {
   .input50 {
     width: 50%;
     margin: 0 10px;
+    
   }
   
   .input100 {
@@ -535,6 +536,7 @@ a {
   .contact-form .row select   {
     font-size: 1.2rem;
     font-weight: 300;
+    font-family: "Fira Mono", monospace;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.2);
     color: var(--color-black);
@@ -550,6 +552,7 @@ a {
   .contact-form .row textarea {
     font-size: 1.2rem;
     font-weight: 300;
+    font-family: "Fira Mono", monospace;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.2);
     color: var(--color-black);
