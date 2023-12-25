@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flash Sports || Register Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+
+
+   
+</head>
+
+<body>
+
+<div class="login-page">
+    <div class="form" >
+        <div class="form-title">
+            <h2>Flash Sports Register.🏆</h2>
+          </div>
+        <form class="reg-form" >
+            <input type="text" name="fullName" size="40" maxlength="38" pattern="^[a-zA-Z]'?[-'a-zA-Z]+$" placeholder="Full Name" required>
+            <input type="email" name="email" size="50" maxlength="256" placeholder="Your contact e-mail" required/>
+            <input type="text" name="username"  placeholder="Choose username" required>
+            <input list="region" placeholder ="Region" required>
+                <datalist id="region">
+                    <option value="Africa">
+                    <option value="Antarctica">
+                    <option value="Asia">
+                    <option value="Australia">
+                    <option value="Europe">
+                    
+
+                </datalist>
+            
+            <input type="password" name="password" minlength="6" maxlength="32" placeholder="Password" required>
+            <input type="password" name="password" placeholder="Confirm password" required/>
+            <button type="submit"><a href="../src/register.html">create</a></button>
+            <p>Already registered? <a href="../src/login.html" style="color: #2196f3;" >Login</a></p>
+        </form>
+    </div>
+</div>
+</body>
+
+</html>

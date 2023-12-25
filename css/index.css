@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+  }
+  a {
+    font-family: "Fira Mono", monospace;
+
+  }  
+/*titre*/
+  .login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Fira Mono", monospace;
+  }
+  
+  .form {
+    text-align: center;
+  }
+  
+  .form-title h2 {
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 24px;
+    color: #2196f3; 
+  }
+  
+  /*Styling the body & background*/
+  body {
+  background-image: url(../img/bgimg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+  }
+  /*The Login page*/
+  .login-page {
+    padding: 10% 0 0;
+    width: 360px;
+    margin: auto;
+    
+  }
+  /*Styling the form*/
+  .form {
+    z-index: 1;
+    position: relative;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: left;
+    background: #ffffff;
+    border-radius: 7px;
+    max-width: 360px;
+    
+    
+  }
+  /*Styling the input boxes*/
+  .form input {
+    background: #f2f2f2;
+    outline: 1em;
+    border: 1px solid #bbb;
+    font-family: "Fira Mono", monospace;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 1em;
+    width: 100%;
+    border-radius: 0.2rem;
+  }
+  /*Customizing the reddish buttons for submitting the form.*/
+  .form button {
+    font-family: "Fira Mono", monospace;
+    outline: 0;
+    color: #ffffff;
+    width: 100%;
+    border: 0;
+    font-size: 1em;
+    background-color: rgb(64, 133, 229);
+    padding: 15px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+    transition: 0.4s all ease-in;
+  }
+  
+  .buttonload {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    display: none;
+  }
+  
+  /*For the paragraphs*/
+  
+  .form p {
+    margin: 15px 0;
+    color: black;
+    text-align: center;
+    font-family: "Fira Mono", monospace;
+  }
+  
+  /* Customize the label (the container) */
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin: 15px 0;
+    cursor: pointer;
+    font-size: 1em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196f3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 6px;
+    top: 3px;
+    width: 3px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  /*The form's links*/
+  .form a {
+    text-decoration: none;
+    color: #f2f2f2;
+  }
+  /*Hovering effect over button*/
+  .form button:hover,
+  .form button:active {
+    background: #35b5d9;
+    position: relative;
+    top: 1px;
+  }
+  
+  /*Validating the input texts*/
+  .reg-form input:valid,
+  input:focus,
+  input:invalid {
+    box-shadow: none;
+  }
+  
+  .reg-form input:focus:valid,
+  input:valid {
+    border: 2px solid green;
+  }
+  
+  input:focus:invalid {
+    border: 2px solid red;
+  }
+  
