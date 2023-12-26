@@ -14,7 +14,7 @@
   
 
   
-  /* utility  */
+  /* utilité  */
   .container {
     padding: 0 5%;
   }
@@ -54,6 +54,8 @@
     margin-bottom: .5rem;
   }
   
+
+
   /* header  */
 
   
@@ -450,7 +452,7 @@ a {
   }
 }
   
-  /* sprt  */
+  /* sport img */
   .sprt {
     height: calc(100vh - 10vh);
     display: flex;
@@ -600,7 +602,7 @@ a {
     }
   }
 
-/* ==== SIMPLE FOOTER ==== */
+/* footer */
 
 footer {
   background-color: #2A363B repeat center;
