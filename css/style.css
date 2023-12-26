@@ -551,7 +551,7 @@ a {
     height: 40px; 
   }
   .contact-form .row input,
-  .contact-form .row textarea {
+  .contact-form .row textarea  {
     font-size: 1.2rem;
     font-weight: 300;
     font-family: "Fira Mono", monospace;
@@ -597,7 +597,7 @@ a {
     }
   
     .contact-form .input100,
-    .contact-form .input50 {
+    .contact-form .input50  {
       width: 100%;
     }
   }
