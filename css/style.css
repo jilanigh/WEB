@@ -61,14 +61,19 @@
   
   
   .menu {
-    
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
   background: var(--primary-color);
   height: 4rem;
+
 }
 .menu ol {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+  
 }
 .menu > ol {
   max-width: 1000px;
